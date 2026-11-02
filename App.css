@@ -1,0 +1,9 @@
+.landing-page { min-height: 100vh; position: relative; display: grid; align-items: center; color: white; background: #163d2e; }
+.background-image { position: absolute; inset: 0; background-image: linear-gradient(90deg, rgba(10,35,22,.88), rgba(10,35,22,.65)), url('https://cdn.pixabay.com/photo/2017/07/13/08/59/greenhouse-2499758_1280.jpg'); background-size: cover; background-position: center; }
+.landing-layout { position: relative; width: min(1180px, 90%); margin: 0 auto; padding: 72px 0; display: grid; grid-template-columns: 1fr 1fr; gap: 90px; align-items: center; }
+.landing-content h1 { font-family: 'Libre Baskerville', Georgia, serif; font-size: clamp(3rem, 5vw, 5rem); margin: 22px 0; }
+.tagline { font-size: 1.2rem; color: #e6eedd; }
+.divider { width: 64px; height: 3px; background: #d6ab58; margin: 28px 0; }
+.get-started-button { border: 0; border-radius: 6px; padding: 16px 30px; background: #f2dfae; color: #173c2c; margin-top: 24px; font-weight: 700; }
+.get-started-button:hover { background: #fff1cc; transform: translateY(-2px); }
+@media (max-width: 760px) { .landing-layout { grid-template-columns: 1fr; gap: 44px; padding: 48px 0; } }
