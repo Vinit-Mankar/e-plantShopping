@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "categories": 5,
+  "productCards": 30,
+  "checks": [
+    "landing and navigation",
+    "adding plants and preventing duplicate clicks",
+    "cart quantities and totals",
+    "decrement boundary",
+    "delete and re-add",
+    "checkout placeholder",
+    "empty cart",
+    "mobile layout",
+    "no browser runtime errors"
+  ]
+}

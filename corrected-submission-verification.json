@@ -1,0 +1,14 @@
+{
+  "repository": "https://github.com/jatinmahire/e-plantShopping",
+  "commit": "711df025bd872e161fbc75bbdf60924cbac91162",
+  "public_files_verified": [
+    "README.md",
+    "src/AboutUs.jsx",
+    "src/App.css",
+    "src/App.jsx",
+    "src/CartSlice.jsx",
+    "src/ProductList.jsx",
+    "src/CartItem.jsx"
+  ],
+  "exact_feedback_requirements": "passed"
+}
